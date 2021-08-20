@@ -245,4 +245,18 @@ align-items: center;
 }
 
 
-/* page3 */
+@media(max-width: 500px) {
+  .adjust .pageheading {
+    font-size: 2.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+  .adjust .pagetext{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+}
