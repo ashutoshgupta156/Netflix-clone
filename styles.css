@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+ }
+.bgimage{
+    background-image: url(images/background.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   z-index: 20;
+}
+.blur{
+    content:"";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000 , inset -120px -100px 250px #000000;
+
+}
+.btnsignin{
+  background-color: red;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.btnsignin a {
+  text-decoration: none;
+}
+.row{
+    padding-top: 4rem;;
+}
+.logo{
+    height: 75px;
+    width: 150px;
+}
+h1,h6,p{ 
+    color: white; 
+}
+.homeP2{
+text-align: center;
+padding-top: 10rem;
+padding-bottom: 5rem;
+}
+#page{
+    background-color:black;
+    
+    border-top-width: 8rem;
+    border-color: grey;
+}
+.adjust{
+    padding-left: 7rem;
+    padding-right: 3rem;
+    padding-top: 3rem;;
+}
+.pageheading{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    color: white;
+}
+.pagetext{
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: white;
+}
+.img2{
+    width: 100%;
+    height: auto ;
+}
+.img3{
+    width: 100%;
+    height: auto;
+}
+.img4{
+    padding-left: 6rem;
+   max-width:100%;
+    height: auto;
+}
+.footer{
+    background-color: #000000;
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+body{
+    background-color: rgb(75, 69, 69);
+}
+
+/* dropdown */
+
+h2 {
+  font-size: 3.125rem;
+  color: #fff;
+  padding: 1.3rem;
+  margin: 0;
+}
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 400;
+  /* border-bottom: 1px solid #e5e5e5; */
+  background-color: #333;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color:#fff;
+}
+
+.accordion a.active {
+  color:#fff;
+  border-bottom: 1px solid black;
+}
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: url('https://api.iconify.design/ant-design/plus-outlined.svg?color=white&rotate=90deg');
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  
+  text-align: center;
+  background-color: #333;
+}
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: url('https://api.iconify.design/ci/close-big.svg?color=white&rotate=90deg');
+  color:#fff;
+  
+}
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid black;
+  background-color: #333;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+
+/* sign_in */
+
+.sign_in{
+  
+  /* top: 50% ;
+  left: 50%; */
+  background-color:rgba(0, 0, 0, 0.6);
+  /* width: 400px;
+  height: 300px; */
+
+}
+.sign_in button a{
+  color: #fff;
+  text-decoration:none;
+}
+.adjust1{
+  padding-top: 0;
+}
+
+.sign_in h1 {
+  margin: 30px 34px 30px 34px;
+}
+.sign_in p {
+  margin: 0 34px 0 34px;
+  font-size: 12px;
+}
+.sign_in .p1{
+  margin: 10px 34px 70px 34px;
+  font-size: 12px;
+}
+.sign_in form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sign_in form input  {
+  width: 300px;
+  height: 45px;
+  margin: 8px;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding-left: 10px;
+  border-radius: 5%;
+  outline: none;
+  /* transition: all .4s; */
+}
+
+.sign_in form .btn{
+  width: 300px;
+  height: 45px;
+  margin: 38px 0 20px 0;
+  background: red;
+  color: #fff;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+}
+
+
+/* page3 */
