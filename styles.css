@@ -258,5 +258,11 @@ align-items: center;
     font-weight: 400;
     color: white;
 }
+ .img4{
+  padding-left: 3rem;
+  max-width:100%;
+  height: auto;
+}
+
 
 }
