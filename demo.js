@@ -255,6 +255,19 @@ function handleClick5(e){
 
 player5.forEach(item => item.addEventListener('click', handleClick5));
 
+$('.play-video-button').on('click',function(){
+  $('.custom-modal').removeClass('no-display')
+  $('#video-id').trigger('play');
+})
+$('.custom-modal').on('click',function(e){
+  console.log(e,e.target.tagName);
+  if(e.target.tagName !== "VIDEO"){
+    $('.custom-modal').addClass('no-display')
+    $('#video-id').trigger('stop');
+
+  }
+
+})
 
 
 
