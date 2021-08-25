@@ -4,6 +4,36 @@ body{
 h1{
   color: #fff;
 }
+/* video content */
+.custom-modal{
+  display: flex;
+  opacity: 1;
+  transition: opacity .3s;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%; 
+  min-height:100vh ;
+  background: rgba(0,0,0,.8);
+  top: 0;
+  left: 0;
+position: fixed;
+z-index: 1000;
+}
+
+.no-display{
+  opacity: 0;
+  display: none;
+}
+.custom-modal >.video-container{
+  width: 800px;
+  height: 400px;
+}
+video{
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
 .bgimage{
     background-image: url(images/joker1.webp);
    background-size: cover;
